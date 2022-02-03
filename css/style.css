@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image:URL("/img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 540vh;
+
+}
+
+nav{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    margin:0 5vw 0 6vw;
+    background-color: rgb(248, 179, 41);
+    padding-top: 10px;
+    display: flex;
+    padding-left: 10vw;     
+    padding-right: 0vw; 
+    height: 6vh;   
+
+    border: solid rgb(248, 179, 41) 0.5vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+
+.logo img{
+
+    height: 6vh;
+    margin: 0px;
+    
+}
+
+.link ul {
+    font-size: 3.8vh;
+    font-weight: bolder;
+    font-weight: bolder;
+    margin-left: 40vw;
+
+    display: flex;
+    
+    list-style: none;
+     
+    
+}
+
+.link li a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+                                                                                                        
+}
+
+
+.link li img{
+    height: 4vh;
+}
+
+
+
+
+
+
+.section0{
+    position: absolute;
+}
+
+
+.section0 button{
+    background-color: #F5AA12;
+    margin: 80vh 0vh 0vh 42vw;
+    border: none;
+
+}
+
+.section0 button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section1{
+    padding: 0vw 7vw 0vw 7vw;
+    color: white;
+    display: flex;
+    margin-top: 99vh;
+}
+
+.section1 .testo{
+    padding-right: 5vw;
+}
+
+.section1 .testo h1{
+    color: #F5AA12;
+    font-size: 7vh;
+}
+
+.section1 .testo h3{
+    padding-top: 3vh;
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.section1 img{
+    border-radius: 0.7vh;
+    padding-right: 1.8vw;
+    margin-top: 6vh;
+
+    height: 64vh;
+}
+
+
+
+
+
+
+
+.section2{
+    border: solid red;
+    padding: 0vw 7vw 0vw 7vw;
+    color: white;
+    display: flex;
+    padding-top: 20vh;
+}
+
+.section2 .testo{
+    padding-left: 5vw;
+}
+
+.section2 .testo h1{
+    color: #F5AA12;
+    font-size: 7vh;
+}
+
+.section2 .testo h3{
+    padding-top: 3vh;
+    font-weight: normal;
+    font-size: 3vh;
+}
+
+.section2 img{
+    height: 70vh;
+}
+
+
+
+
+.road H1{
+    color: #db2703;
+    margin-top: 30vh;
+    font-size: 6vh;
+    text-align: center;
+}
+
+
+
+.section3{
+    font-size: 2.5vh;
+    border: solid red;
+    height: 140vh;
+    display: flex;
+}
+
+.section3 .sinistra{
+    
+    margin-top: 53vh;
+    height: 100%;
+    width: 50vw;
+    
+}
+
+.section3 .destra{
+
+    height: 100%;
+    width: 50vw;
+}
+
+
+
+.venti{
+
+    padding-left: 20vw;
+    border: solid red;
+}
+
+.settanta{
+    padding-left: 20vw;
+    margin-top: 45vh;
+    border: solid red;
+}
+
+.novanta{
+    margin-top: 45vh;
+    padding-left: 22vw;
+    border: solid red;
+}
+.quaranta{
+    margin-top: 80vh;
+    padding-right: 20vw;
+    margin-left: 10vh;
+    border: solid red;
+}
+.cento{
+    margin-top: 50vh;
+    padding-right: 20vw;
+    margin-left: 10vh;
+    border: solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4{
+    position: relative;
+    top: 100vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 30vh;
+    border: solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo2 img{
+    border: solid red;
+    height: 20vh;
+    margin-top: 6vh;
+    
+}
+
+.contact{
+    padding-top: 5vh;
+    border: solid red;
+    width: 30vw;
+    font-size: 3vh;
+}
+
+.email_opensea{
+    list-style: none;
+}
+
+.link_opensea a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.icone{
+    display: flex;
+    list-style: none;
+    
+}
+
+.icone li img{
+    height: 5vh;
+}
